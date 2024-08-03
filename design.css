@@ -36,3 +36,57 @@ nav a:hover{
     background-color: lightgreen;
     border-radius: 5px;
 }
+
+/* banner */
+
+header{
+    background-image: url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 808px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 100px 150px 100px 600px;
+}
+
+.banner-h1{
+    width: 525px;
+    color: #151414;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-p{
+    width: 495px;
+    color: #444343;
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-bottom: 32px;
+}
+
+.banner-btn{
+    width: 160px;
+    height: 64px;
+    
+    border-radius: 5px;
+    border: 0;
+    background: #F15B22;
+
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    margin-right: 0px;
+}
