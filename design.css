@@ -40,7 +40,7 @@ nav a:hover{
 /* banner */
 
 header{
-    background-image: url('images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 808px;
