@@ -43,7 +43,10 @@ header{
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
     background-position: center;
+
+    max-width: 1600px;
     height: 808px;
+    margin: 0 auto;
 }
 
 .banner{
@@ -209,3 +212,5 @@ main section{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer */
