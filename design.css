@@ -141,3 +141,71 @@ main section{
 .failures-li-icon{
     color: lightgreen;
 }
+
+/* my-plans section */
+.my-plans > h1{
+    color: #151414;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.my-plans-item-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.my-plans-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px;
+}
+
+.my-plans-item-h2{
+    margin-bottom: 5px;
+}
+
+.my-plans-banner{
+    width: 1140px;
+    height: 300px;
+
+    margin-top: 100px;
+    padding: 20px 615px 30px 60px;
+
+    background-image: url('images/gradient3.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    
+    border-radius: 8px;
+    border: 0;
+}
+
+.my-plans-banner > h1{
+    width: 459px;
+
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plans-banner > button{
+    width: 160px;
+    height: 64px;
+
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    
+    color: #F15B22;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
