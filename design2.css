@@ -292,6 +292,10 @@ footer{
     background-color: #151414;
 }
 
+.footer-div2-contact > ::placeholder {
+    color: #FFF;
+}
+
 .footer-div2-contact input[placeholder="Enter your email"]{
     color: #F3F3F3;
     font-family: "Work Sans";
